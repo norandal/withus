@@ -1,0 +1,61 @@
+<!doctype html><html lang="ko"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>자기소개서</title><style>body{margin:0;font:16px/1.6 -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,sans-serif;background:#0f172a;color:#e2e8f0}main{max-width:800px;margin:40px auto;padding:24px;border:1px solid #1f2937;border-radius:14px;background:#111827}h1{margin:0 0 8px;font-size:28px;color:#38bdf8}h2{margin:20px 0 8px;font-size:18px;color:#94a3b8}p{margin:6px 0}.b{display:inline-block;margin:6px 6px 0 0;padding:6px 10px;border:1px solid #334155;border-radius:999px}</style><main><h1>안녕하세요, 프론트엔드 개발자 하이리입니다.</h1><p>사용자 문제를 구조화해 간결한 인터페이스로 풀어냅니다. 데이터 기반 개선과 빠른 피드백을 중시하며 팀과의 협업에서 명확함을 가장 중요하게 생각합니다.</p><h2>핵심역량</h2><p class="b">React</p><p class="b">TypeScript</p><p class="b">Next.js</p><p class="b">A11y</p><p class="b">성능</p><h2>경험</h2><p>- 랜딩 리뉴얼로 LCP 40% 개선, 번들 30% 축소</p><p>- 컴포넌트 토큰화와 스토리북 문서화</p><h2>연락</h2><p>이메일: hailey@example.com · GitHub: github.com/hailey</p></main>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>자기소개서 | withus</title>
+<style>
+:root{--bg:#0f172a;--fg:#e2e8f0;--muted:#94a3b8;--accent:#38bdf8;--card:#111827}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Apple SD Gothic Neo,Malgun Gothic,sans-serif;background:linear-gradient(180deg,#0f172a,#0b1320);color:var(--fg);line-height:1.6}
+.container{max-width:860px;margin:0 auto;padding:32px}
+nav{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+nav a{color:var(--muted);text-decoration:none;margin-left:16px}
+nav a:hover{color:var(--fg)}
+.hero{padding:36px;border:1px solid #1f2937;border-radius:16px;background:radial-gradient(1200px 400px at 90% -10%,rgba(56,189,248,.15),transparent 60%),var(--card)}
+h1{margin:0 0 8px;font-size:32px}
+h2{margin:28px 0 12px;font-size:20px;color:var(--accent)}
+p{margin:8px 0}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+.badge{padding:6px 10px;border:1px solid #334155;border-radius:999px;color:var(--fg);background:#0b1320}
+.card{margin-top:16px;padding:16px;border:1px solid #1f2937;border-radius:12px;background:var(--card)}
+small{color:var(--muted)}
+footer{margin:28px 0;color:var(--muted);text-align:center}
+button{background:var(--accent);border:none;color:#003244;padding:10px 14px;border-radius:10px;font-weight:700;cursor:pointer}
+button:hover{filter:brightness(1.1)}
+</style>
+</head>
+<body>
+<div class="container">
+<nav><strong>withus</strong><div><a href="#about">소개</a><a href="#skills">역량</a><a href="#work">프로젝트</a><a href="#contact">연락</a></div></nav>
+<section class="hero" id="about">
+<h1>안녕하세요, 성장하는 프론트엔드 개발자입니다.</h1>
+<p>문제를 구조화해 사용자 경험으로 연결하는 것을 좋아합니다. 작은 디테일과 일관성을 중시하며, 팀과의 협업에서 명확한 커뮤니케이션을 지향합니다.</p>
+<p><small>관심사: 성능 최적화, 접근성, 디자인 시스템</small></p>
+<div class="badges"><span class="badge">React</span><span class="badge">TypeScript</span><span class="badge">Next.js</span><span class="badge">Tailwind</span><span class="badge">Node.js</span></div>
+</section>
+<section class="card" id="skills">
+<h2>핵심 역량</h2>
+<p>- 복잡한 UI 상태를 단순한 모델로 설계합니다.</p>
+<p>- 데이터에 근거해 성능과 접근성을 개선합니다.</p>
+<p>- 재사용 가능한 컴포넌트와 스토리북을 구축합니다.</p>
+</section>
+<section class="card" id="work">
+<h2>프로젝트 하이라이트</h2>
+<p><strong>withus 웹 리뉴얼</strong> — LCP 42% 개선, 번들 35% 감소, Lighthouse 95+ 달성.</p>
+<p><strong>디자인 시스템</strong> — 버튼·폼 패턴 정립, 토큰 기반 테마, 문서 자동화.</p>
+</section>
+<section class="card" id="contact">
+<h2>연락처</h2>
+<p>이메일: hailey@example.com · GitHub: github.com/hailey</p>
+<button onclick="document.getElementById('contactForm').style.display='block'">간단히 메시지 보내기</button>
+<form id="contactForm" style="display:none;margin-top:12px">
+<input id="msg" placeholder="한 줄 메시지" style="width:100%;padding:10px;border-radius:8px;border:1px solid #334155;background:#0b1320;color:var(--fg)"><div style="height:8px"></div>
+<button type="button" onclick="alert('메시지가 임시 저장되었습니다. 좋은 하루 보내세요!')">보내기</button>
+</form>
+</section>
+<footer>© 2025 withus · 포트폴리오용 데모 페이지</footer>
+</div>
+</body>
+</html>
+애국가 적어줘
